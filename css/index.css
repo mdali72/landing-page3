@@ -1,0 +1,370 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header
+{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/img3.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+}
+body p 
+{
+	color: #7E819C;
+}
+
+.banner_btn
+{
+	margin: 50px 0px;
+	display: flex;
+	align-items: center;
+}
+.banner_btn i 
+{
+	font-size: 60px;
+	padding:0px 5px 0px 20px;
+
+}
+ 
+.banner_card
+{
+	background-color: white;
+	box-shadow: 3px 3px 10px black;
+	text-align: center;
+	padding: 10px 0px;
+	border-radius: 10px ;
+	margin: 50px 0px;
+}
+.banner_card:hover
+{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.banner_card p 
+{
+	color: black;
+}
+.banner_img 
+{
+	width: 100%;
+	height: 100%;
+}
+.banner_img  img
+{
+	width: 100%;
+	height: 100%;
+	padding: 40px 10px;
+}
+ 
+ 
+.banner2_img
+{
+	width: 100%;
+	height: 100%;
+}
+.banner2_img img
+{
+	width: 100%;
+	height: 100%;
+} 
+.banner2_sec
+{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px 0px;
+}
+.banner2_icon
+{
+	width: 100%;
+	display: flex;
+	padding: 10px 0px;
+
+}
+.banner2_heading
+{
+	padding-left: 20px;
+}
+  	
+.banner3_heading 
+{
+	text-align: center;
+	width: 50%;
+	margin: 50px auto;
+
+}
+.banner3 .card 
+{
+	border-radius: 20px;
+}
+.banner3 .card:hover
+{
+	box-shadow: 1px 1px 5px;
+	transform: scale(1.1);
+	transition: all 1s;
+}
+
+.banner3 .card_icon ,.card_btn
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+}
+.banner3 .card_icon  i
+{
+	font-size: 25px;
+
+}
+ 
+.banner4_sec
+{
+	height: 100%;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+.banner4_img 
+{
+	width: 100%;
+	height: 100%;
+}
+.banner4_img img 
+{
+	width: 100%;
+	height: 100%;
+
+}
+.banner5 
+{
+	/*height: 100vh;
+	border: solid;*/
+}
+.banner5_sec 
+{
+	background-color: #CCCCCC;
+	padding: 50px 0px;
+	text-align: center;
+	border-radius: 50px;
+}
+.banner5_heading 
+{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+ 
+.banner5_sec .card
+{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+.banner5_sec .card:hover
+{
+	transform: scale(1.1);
+	transition: all 1s;
+	color: blue;
+	box-shadow: 1px 1px 5px gray;
+}
+.banner5_card img 
+{
+	width: 100%;
+	height: 60%;
+}
+.banner5_card  .card .card-body h5 
+{
+	padding-bottom: 20px;
+}
+.banner6{
+	margin: 50px 0px;
+}
+.banner6_heading 
+{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 30px ;
+}
+.banner6_comment
+{
+	border: 1px solid;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 2px -2px 5px ;
+	border-radius: 30px;
+}
+.banner6_comment img 
+{
+	border: 5px solid #B0AFF3;
+	border-radius: 50%;
+	margin: 10px 0px;
+} 
+.banner6_img 
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	position: relative;
+}
+ 
+.banner6_img .img3
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 3s 0.5s  ease  infinite ;
+}
+.banner6_img .img2
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 2s 1s  ease  infinite ;
+}
+.banner6_img .img1
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 4s 1.5s  ease  infinite ;
+}
+.banner6_img .img4
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 2s 0.5s  ease  infinite ;
+}
+.banner6_img .img5
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 4s 1s  ease  infinite ;
+}
+.banner6_img .img6
+{
+ visibility:hidden;
+  position: relative;
+  animation: example 3s 1.5s  ease  infinite ;
+}
+
+  @keyframes example
+        {
+            0%
+            {
+                bottom:0%;
+                left: 0%;
+                visibility: visible;
+            }
+            
+             
+            100%
+            {
+            	bottom: 100%;
+            	left: 0%;
+            	opacity: 0;
+            }
+            
+        }
+
+
+footer
+{
+	width: 100%;
+	background-image: url(../images/img27.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	margin-top: 50px;
+}
+.footer_sec
+{
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding:30px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 10px;
+}
+.footer_sec label
+{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px 5px; 
+
+}
+.footer_sec label input 
+{
+	padding: 10px 20px;
+	background-color: wheat;
+	border: none;
+	width: 100%;
+	background-color: transparent;
+	outline: none;
+}
+.footer_sec label button 
+{
+	background-color: transparent;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 0px;
+	color: black;
+}
+.footer_heading 
+{
+	padding: 20px 10px;
+}
+.footer_heading a
+{
+	color: white;
+	display: flex;
+	margin: 10px 0px;
+	padding: 8px 0px;
+}
+
+ 
+
+
+ 
+@media screen and (max-width:1000px)
+{
+	.banner2_sec
+	{
+		width: 90%;
+	}
+	.banner4 button 
+	{
+		top: 100%;
+	}
+	.banner5_card  .card .card-body h5 
+	{
+		padding-bottom: 5px;
+	}
+	footer 
+	{
+		background-color: black;
+		color: white;
+		background-image: none;
+		margin-top: 150px;
+	}
+	.footer_sec
+	{
+		position: relative;	
+		bottom: 100px;
+	}
+
